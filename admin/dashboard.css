@@ -1,0 +1,30 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    color:  black;
+}
+body
+{
+    background-color: #ffffff ;
+    
+}
+.las.la-search
+{
+    position: absolute;
+    right: 4px;
+    cursor: pointer;
+}
+#search::placeholder
+{
+    color: rgb(104, 104, 104);
+    
+}
+.users_card_horizontal
+{
+    width: 873px;
+    height: 272px;
+}
+.card-image user_img{
+    max-width: 28% !important;
+}

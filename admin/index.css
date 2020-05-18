@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Roboto&display=swap');
+/* color pallete codes
+    #f7444e  red 
+    #f7f8f3   white
+    #78bcc4   blue
+    #002c3e   dark blue*/
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: #f7f8f3;
+}
+
+div.card-image
+{
+    margin: 80px;
+}
+div.username
+{
+   padding-bottom: 20px;
+}
+.container
+{
+    position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+input.waves-button-input {
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: white;
+    outline: none;
+    background-color: #f7444e;
+}
+.btn{
+    background-color: #f7444e;
+}
+i.waves-effect.waves-light.btn.waves-input-wrapper {
+    background-color: #f7444e;
+}
